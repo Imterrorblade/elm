@@ -1,7 +1,7 @@
 /**
 * 储存localStorage
 * */
-export conset setStore = (name, content) => {
+export const setStore = (name, content) => {
   if(!name){
     return;
   }
